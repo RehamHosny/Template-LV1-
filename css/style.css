@@ -1,0 +1,408 @@
+    
+    .container{
+        width: 1200px;
+        margin: 0 auto
+    }
+    .clearfix{
+        clear: both
+    }
+    p{
+        line-height: 1.5;
+        color: #888
+    }
+    h2 ,h3{
+        color: #777
+    }
+    .my-button{
+        background: none;
+        border: 3px solid #2dcc70;
+        padding: 10px 30px;
+        color: #2dcc70;
+        font-weight: 600
+    }
+    /* start header */
+    .header .slider{
+        background: url(../images/slider.jpg);
+        background-size: cover;
+        height: 600px
+    }
+    .header .slider .intro{
+        text-align: center;
+        padding-top: 200px;
+        color: #f1f1f1;
+        
+    }
+    .header .slider .intro h2{
+        display: block;
+        font-size: 1.5em;
+        margin: 0 auto;
+        padding: 20px 0;
+        font-size: 45px;
+        border-top: 4px solid #f1f1f1;
+        border-bottom: 4px solid #f1f1f1;
+        width: 600px;
+        color: #f1f1f1;
+        text-transform: capitalize;
+       
+    
+    }
+    .header .slider .intro button{
+        padding: 5px 10px;
+        margin-top: 25px;
+        background-color: transparent;
+        color: #f1f1f1
+    }
+    
+    .header .navbar{
+        background-color: #252F31;
+        color: #f1f1f1;
+        overflow: hidden;
+        padding: 20px 0
+    }
+    .header .navbar h2{
+        text-transform: uppercase;
+        font-weight: bold;
+        display: inline;
+        padding-top: 50px;
+        line-height: 1.7;
+   
+     
+    
+    }
+    .header .navbar h2 .fl-left{
+        float: left
+    }
+    .header .navbar h2 span{
+        color: #2ecc71
+    }
+    .header .navbar ul{
+        list-style: none;
+        overflow: hidden;
+        float: right;
+        padding-left: 0;
+     
+    }
+    .header .navbar ul li{
+
+        float: left;
+        padding:0 10px;
+    }
+   
+    .header .navbar ul li a{
+        text-decoration: none;
+        color: #f1f1f1
+       
+    }
+    .header .navbar ul li.active a,
+    .header .navbar ul li a:hover {
+         color: #2ecc71
+    }
+    /* end header */
+    
+    /* start features */
+    .features{
+        padding-top: 40px;
+        padding-bottom: 50px;
+       
+        
+    }
+    .features .feat {
+        width: 33.3%;
+        float: left
+    }
+    .features .feat h2{
+        color: #777;
+        text-transform: capitalize
+    }
+    .features .feat p{
+        color: #888;
+        line-height: 1.5
+    }
+    /* end features */
+    
+    /* start about me */
+    .about{
+        background-color: #f2f2f2;
+        overflow: hidden;
+        padding-top: 40px;
+        padding-bottom: 30px
+    }
+    .about .image {
+        width: 40%;
+        float: left;
+        margin-right: 5%;
+        
+    }
+    .about .image img{
+        width: 100%
+    }
+    .about .info{
+        width: 55%;
+        float: left;
+    }
+    .about .info h2{
+        text-transform: capitalize;
+        color: #777;
+        
+    }
+    .about .info p{
+        line-height: 1.5;
+        color: #888
+    }
+    .about .info .hobbies{
+        overflow: hidden;
+        margin: 15px 0 0 40px
+        }
+    .about .info .hobbies .content{
+        width: 50%;
+        overflow:hidden;
+        float: left
+    }
+    .about icon{
+        width: 12%;
+        margin-right: 5%;
+
+    }
+    .about .icon i{
+            margin-top: 10px;
+            color: #2DCC70;
+
+    }
+    
+   .fa{
+    display: inline-block;
+ 
+   }
+    .about h3{
+     
+        display: inline
+    }
+    .about .text{
+        width: 83%;
+        float: left;
+
+    }
+    /* end about me */
+    
+    /*  start skills */
+    .my-skills{
+         padding-top: 30px
+    }
+    .skills{
+        width: 45%;
+        float: left;
+        overflow: hidden;
+        margin-left: 40px;
+       
+    }
+    .my-skills .skills h2{
+        margin: 25px 0 20px 0;
+        color: #777;
+        text-transform: capitalize
+    }
+    .my-skills .skills p{
+        line-height: 1.5;
+        color: #888;
+    
+    }
+    .progress{
+        width: 45%;
+        float: left;
+        margin-left: 5%;
+    }
+    .progress{
+        color: #777
+    }
+    .my-skills .progress .technique div{
+        background-color: #f2f2f2;
+        height: 25px
+    }
+    .my-skills .progress .technique div span{
+        background-color: #2dcc70;
+        height: 25px;
+        line-height: 25px;
+        color: #fff;
+        text-align: right;
+        font-weight: 600;
+        display: block
+    }
+    /* end skills  */
+    
+    /* start resume */
+    .resume{
+        text-align: center;
+        padding-top: 40px;
+        padding-bottom: 70px;
+        background-color: #f2f2f2;
+        margin-top: 30px
+    }
+    .resume button{
+        margin-top: 10px
+    }
+    /* end resume */
+    
+    /* start my education */
+    .main{
+        width: 50%;
+        padding-top: 20px;
+        float: left
+    }
+    .exp{
+        width: 45%;
+        margin-left: 5%;
+        float: left;
+        padding-top: 60px
+    }
+    .exp h3{
+        color: #777
+    }
+    .exp span:first-of-type{
+        color: #999;
+        display: block
+    }
+    .exp span:last-of-type{
+        background-color: #2dcc70;
+        color: #fff;
+        padding: 4px 10px;
+        display: inline-block;
+        margin-bottom: 10px
+    }
+    /* end my education */
+    
+    /* start testimonial */
+    .testimonial{
+        text-align:center;
+        padding-bottom: 30px;
+        padding-top: 70px;
+        background-color: #f1f1f1;
+    }
+    .testimonial q{
+     padding: 30px ;
+     line-height: 1.5;
+     color: #888
+    }
+    .testimonial h3{
+        color: #777
+    }
+    .testimonial ul{
+        list-style: none;
+        padding-right:40px
+    }
+    .testimonial li{
+        display: inline-block;
+        width: 15px;
+        height: 15px;
+        border: 1px solid #2dcc77;
+        
+    }
+    .testimonial li.active{
+        background-color: #2dcc77;
+    }
+    /* end testimonial */
+    
+    /* start portfolio */
+    .portfolio{
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 30px
+    }
+    .portfolio .our-work > div{
+        width: 33.33%;
+        float: left;
+        margin: 30px 0
+    }
+    .portfolio img{
+        border: 1px solid #ccc;
+        padding: 2px
+    }
+    /* end portfolio */
+    
+    /* start contact */
+    .contact {
+        background-color: #252F31;
+        padding-top: 90px;
+        padding-bottom: 70px;
+        overflow: hidden
+    }
+    .contact .infoc{
+        width: 50%;
+        float: left;
+    }
+    .contact .form{
+        width: 45%;
+        float: left;
+        margin-left: 5%;
+    }
+    .contact h2{
+        color: #ccc
+    }
+    .contact p{
+        padding-bottom: 10px;
+        padding-top: 10px
+    }
+    .contact .form label{
+        display: block;
+        color: #d1d6da;
+        margin: 10px 0
+    }
+    .contact .form input[type="text"]{
+        width: 80%;
+        background-color: #4B5557;
+        border: 0;
+        padding: 10px;
+        color: #fff;
+        margin-bottom: 10px
+    }
+    .contact .form textarea{
+        width: 80%;
+        background-color: #4B5557;
+        border: 0;
+        padding: 10px;
+        color: #fff;
+        margin-bottom: 10px ;
+        height: 300px
+    }
+    .contact .form input[type="submit"]{
+    
+        background-color: #191E22;
+        border: 0;
+        padding: 10px;
+        color: #fff;
+        margin-bottom: 10px ;
+    }
+    /* end contact */
+    
+    /* start footer */
+    .footer{
+        background-color: #191E22;
+        color: #6A6E71;
+        padding: 20px 0;
+        text-align: center;
+        overflow: hidden
+    }
+    .footer span{
+     float: left;
+     padding-top: 15px;
+     padding-left: 15px
+     
+    }
+    .footer ul{
+        float: right;
+        list-style: none;
+        padding-right: 20px;
+
+    }
+    .footer ul li{
+        display: inline-block
+    }
+    /* end footer */
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
